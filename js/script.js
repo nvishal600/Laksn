@@ -60,10 +60,12 @@ $(document).ready(function(){
         responsive:{
             0:{
                 items:1,
-                nav:true,
+                nav:false,
                 stagePadding:40,
                 center : true,
                 dots:true,
+                autoplay:true,
+                autoplayTimeout:2000,
                
                
             },
