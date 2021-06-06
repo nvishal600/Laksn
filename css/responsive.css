@@ -257,6 +257,9 @@
   .appScreenShot{
     width: 50%;
   }
+   .appScreenShot .item{
+    width: 100%;
+  }
  
 }
 
