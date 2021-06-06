@@ -52,7 +52,6 @@ $(document).ready(function(){
         loop:true,
         margin:5,
         center:true,
-        stagePadding:50,
         nav:true,
         dots:false,
         navText:[`<i class="fas fa-long-arrow-alt-left"></i>`,`<i class="fas fa-long-arrow-alt-right"></i>`],
@@ -61,7 +60,7 @@ $(document).ready(function(){
             0:{
                 items:1,
                 nav:false,
-                stagePadding:40,
+               
                 center : true,
                 dots:true,
                 autoplay:true,
@@ -71,7 +70,7 @@ $(document).ready(function(){
             },
             700:{
                 items:2,
-                stagePadding:false
+                
                 
             },
             1000:{
