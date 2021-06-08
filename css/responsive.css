@@ -315,6 +315,28 @@
   }
 
 
+  @media(max-width:360px)
+  {
+    .accordion .accordion-item {
+      width: 90%;
+      
+    }
+  }
+  @media(max-width:343px)
+  {
+    .store .storeIcon{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    .store .storeIcon img{
+      margin: 10px;
+    }
+  }
+
+
 
 
   
