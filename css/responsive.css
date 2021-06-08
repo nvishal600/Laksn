@@ -218,15 +218,19 @@
       margin-top: 100px;
     }
   }
-  @media(max-width:426px)
+  @media(max-width:772px)
   {
-    .details .phonePhoto{
-      width: 400px;
+    .details{
+      flex-direction: column;
     }
-    .details .detailSlide{
-      width: 400px;
     
-    }
+      .details .phonePhoto{
+        width: 70%;
+      }
+      .details .detailSlide{
+        width: 70%;
+      
+      }
   }
   @media(max-width:992px)
   {
