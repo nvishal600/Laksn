@@ -47,6 +47,12 @@
     }
     
 }
+@media(max-width:300px)
+{
+  .banner{
+    background-position: right;
+}
+}
 
 @media(max-width:1032px)
 {
