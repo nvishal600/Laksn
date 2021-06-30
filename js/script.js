@@ -124,7 +124,8 @@ const messReg=/^[a-zA-Z\s0-9.\-_\,]{10,}$/;
 
 
 
-myform.addEventListener('submit',function(e){;
+myform.addEventListener('submit',function(e){
+    e.preventDefault();
     if(nameReg.test(fname.value) || emailReg.test(email.value) || subjectReg.test(subject.value) || messReg.test(message.value))
     {
         if(nameReg.test(fname.value))
